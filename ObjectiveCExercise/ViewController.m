@@ -17,8 +17,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     label.text = @"Exercise: \r\n"
     "1. Write a Shape class, with a readonly name property; and an initWithName: method;\r\n"
-    "2. Write a Drawable protocol, with a draw method which returns a NSString *;\r\n"
-    "3. Write Rectangle, Circle classes inheriting Shape, and adopting Drawable;\r\n"
+    "2. Write a Drawable protocol, with a draw method which returns an NSString *;\r\n"
+    "3. Write Rectangle, Circle classes inheriting from Shape, and adopting Drawable;\r\n"
     "4. Draw method should return \"Rectangle XX\", and \"Circle YY\"\r\n\r\n"
     "Bonus:\r\n"
     "5. Play with categories and extensions;\r\n"
@@ -142,6 +142,11 @@
         [alertView show];
         return;
     }
+    
+    label.textColor = [UIColor redColor];
+    label.font = [UIFont systemFontOfSize:30.0];
+    label.textAlignment = UITextAlignmentCenter;
+    label.text = @"Congratulations!";
     
     [circle release];
     [rectangle release];
