@@ -250,6 +250,8 @@
 		1715E8E6153A4B8F00C7E80B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveCExercise/ObjectiveCExercise-Prefix.pch";
 				INFOPLIST_FILE = "ObjectiveCExercise/ObjectiveCExercise-Info.plist";
@@ -261,6 +263,8 @@
 		1715E8E7153A4B8F00C7E80B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveCExercise/ObjectiveCExercise-Prefix.pch";
 				INFOPLIST_FILE = "ObjectiveCExercise/ObjectiveCExercise-Info.plist";
